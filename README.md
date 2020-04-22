@@ -12,8 +12,8 @@ Table of Contents
 
 The Inky pHAT and Inky wHAT are eink displays made by Pimoroni (<https://bit.ly/2xTrfHB>). I like using them to test thing when developing programs on the Raspberry Pi. Though the screens are nice, the installation process is a pain, takes a long time, and isn't automated.
 
-![Diagram](https://raw.githubusercontent.com/himalayanelixir/arduino-pi-ceiling-sculpture/master/docs/arduino-pi-ceiling-sculpture-diagram.png)
-<p align="center"><i>Entire system</i></p>
+![Diagram](https://raw.githubusercontent.com/himalayanelixir/pi-inky-phat/master/docs/pi-inky-phat.jpg)
+<p align="center"><i>Raspberry Pi 3 with Inky pHAT</i></p>
 
 
 # Installation

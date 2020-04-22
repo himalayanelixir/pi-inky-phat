@@ -12,7 +12,7 @@ from inky import InkyPHAT  # pylint: disable=import-error
 
 def print_text(text):
     """Displays text that is passed as an argument"""
-    inky_display = InkyPHAT("yellow")
+    inky_display = InkyPHAT("black")
     inky_display.set_border(inky_display.WHITE)
     img = Image.new("P", (inky_display.WIDTH, inky_display.HEIGHT))
     draw = ImageDraw.Draw(img)
@@ -21,7 +21,7 @@ def print_text(text):
     width, height = font.getsize(message)
     x_axis = (inky_display.WIDTH / 2) - (width / 2)
     y_axis = (inky_display.HEIGHT / 2) - (height / 2)
-    draw.text((x_axis, y_axis), message, inky_display.YELLOW, font)
+    draw.text((x_axis, y_axis), message, inky_display.BLACK, font)
     inky_display.set_image(img)
     inky_display.show()
 
