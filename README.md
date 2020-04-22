@@ -20,7 +20,7 @@ The Inky pHAT and Inky wHAT are eink displays made by Pimoroni (<https://bit.ly/
 
 ## Existing Image
 
-If you are already using a Raspberry Pi I would recommend using the ```inky-phat-installer.sh``` script. Running this you'll get a minimal install of the Inky pHAT drivers. If the drivers install properly you should see the current time on the screen.
+If you are already using a Raspberry Pi I would recommend using the ```inky-phat-installer.sh``` script. Running this you'll get a minimal install of the Inky pHAT drivers. Once script has run you will see the current time in UTC on the Inky pHAT display.
 
 ## New Image
 
