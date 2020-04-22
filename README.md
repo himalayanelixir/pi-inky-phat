@@ -20,7 +20,7 @@ The Inky pHAT and Inky wHAT are eink displays made by Pimoroni (<https://bit.ly/
 
 ## Existing Image
 
-If you are already using a Raspberry Pi I would recommend using the ```inky-phat-installer.sh``` script. Running this you'll get a minimal install of the Inky pHAT drivers. Once script has run you will see the current time in UTC on the Inky pHAT display.
+If you are already using a Raspberry Pi I would recommend using the ```inky-phat-installer.sh``` script. Running this you'll get a minimal install of the Inky pHAT drivers. Once the script has run you will see the current time in UTC on the Inky pHAT display.
 
 ## New Image
 
@@ -29,10 +29,10 @@ If you are creating a fresh image for a Raspberry Pi, using the Firstboot Raspbi
 The best way to get everything working properly is to follow these steps:
 
 1. Download the latest image from <https://github.com/nmcclain/raspberian-firstboot/releases>
-2. Use etcher to write to SD card (<https://www.balena.io/etcher/>)
+2. Use etcher to write to the SD card (<https://www.balena.io/etcher/>)
 3. Copy over ```image-setup/firstboot.sh``` and ```image-setup/wpa_supplicant.conf``` to boot partition of SD card. Remember to edit the `wpa_supplicant.conf` file with the details for your wifi network
 4. Put the SD card into Raspberry Pi and boot. This will take a while but but shouldn't take more than 20 mins. If it does something probably went wrong.
-5. Once script has run you will see the current time in UTC on the Inky pHAT display.
+5. Once the script has run you will see the current time in UTC on the Inky pHAT display.
 
 # Using display.py
 

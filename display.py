@@ -11,7 +11,11 @@ from inky import InkyPHAT  # pylint: disable=import-error
 
 
 def print_text(text):
-    """Displays text that is passed as an argument"""
+    """Displays text in Inky pHAT display.
+
+    Args:
+        text: String that is displayed on the Inky pHAT
+    """
     inky_display = InkyPHAT("black")
     inky_display.set_border(inky_display.WHITE)
     img = Image.new("P", (inky_display.WIDTH, inky_display.HEIGHT))
