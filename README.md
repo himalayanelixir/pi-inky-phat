@@ -6,7 +6,7 @@ Table of Contents
    * [Installation](#installation)
       * [Existing Image](#existing-image)
       * [New Image](#new-image)
-   * [Using display.py](#using-display.py)
+   * [Using display.py](#using-displaypy)
 
 # Summary
 
