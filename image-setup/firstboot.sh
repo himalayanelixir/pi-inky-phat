@@ -50,7 +50,7 @@ rm /home/pi/script.exp
 
 
 # download the display program from github
-wget -P /home/pi https://raw.githubusercontent.com/himalayanelixir/alexa-pi-motor-control/master/display.py
+wget -qP /home/pi https://raw.githubusercontent.com/himalayanelixir/pi-inky-phat/master/display.py
 # make display program executable
 sudo chmod +x /home/pi/display.py
 # add display program to PATH
